@@ -22,7 +22,11 @@ dependencies:
     sdk: flutter
   gtm_platform_interface: ^0.0.6
   gtm_android: ^0.0.6
-  gtm_ios: ^0.0.4
+  gtm_ios:
+    git:
+      url: https://github.com/taskindrp/gtm.git
+      ref: main
+      path: gtm_ios
 
 dev_dependencies:
   flutter_test:
